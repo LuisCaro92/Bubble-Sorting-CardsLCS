@@ -17,11 +17,25 @@ b{
     border-radius: 5%;
 }
 
-.icono1{
 
+.pintaup{
+    position: relative;
+    font-size: 30px;
+    margin-left:5px;
+    bottom:10px;
 }
 
-.numero{}
+.numero{
+    position: relative;
+    font-size:45px;
+    text-align: center;
+    bottom:10px;
+}
 
-.icono2{}
-
+.pintadown{
+    position: relative;
+    font-size: 30px;
+    transform: rotate(180deg);
+    margin-right:5px;
+    margin-bottom:10px;
+}
