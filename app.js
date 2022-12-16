@@ -1,7 +1,7 @@
 let numeros=[ "A" , "2","3","4","5","6","7","8","9","J","Q","K"]
 let pintas=["♦", "♥", "♠", "♣"]
 
-let div=document.getElementById("card")
+const div=document.getElementById("card")
 div.classList.add("id","card")
 
 
@@ -27,6 +27,26 @@ function cartaRandom(){
 const randomsuit=pintas[cartaRandom()];
 
 /* funcion para el sort*/
+
+let draw=document.getElementById("draw");
+const sort=document.getElementById("sort");
+
+
+draw.addEventListener("click", cliker)
+function cliker(){
+
+const div=document.createElement("div")
+div.classList.add("card")
+document.getElementById("bodydraw").innerHTML=div
+
+
+
+
+    console.log("funciona")
+}
+
+
+
 
 
 
